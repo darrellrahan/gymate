@@ -1,7 +1,13 @@
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import MobileNavbar from "./components/MobileNavbar";
+
 export default function Home() {
   return (
     <main>
-      <h1 className="font-bold text-[48px] uppercase">Hello World</h1>
+      <Header />
+      <MobileNavbar />
+      <Hero />
     </main>
   );
 }

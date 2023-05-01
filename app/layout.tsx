@@ -1,3 +1,4 @@
+import { TogglerProvider } from "./context/toggler";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
 
@@ -18,8 +19,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${montserrat.className}`}>{children}</body>
-    </html>
+    <TogglerProvider>
+      <html lang="en" className="scroll-smooth">
+        <head>
+          <script
+            src="https://kit.fontawesome.com/23cc326a28.js"
+            crossOrigin="anonymous"
+          ></script>
+        </head>
+        <body className={`${montserrat.className}`}>{children}</body>
+      </html>
+    </TogglerProvider>
   );
 }
