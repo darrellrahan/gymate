@@ -6,7 +6,7 @@ import React, { useEffect, useRef } from "react";
 import { useTogglerContext } from "../context/toggler";
 
 function Header() {
-  const { setMobileNavbar } = useTogglerContext();
+  const { setMobileNavbar, setAboutSidebar } = useTogglerContext();
   const headerRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ function Header() {
         <div>
           <Link href="/">
             <Image
-              src="/images/logo/logo.svg"
+              src="/images/logo/logo-white.svg"
               alt="logo"
               width={160}
               height={160}
@@ -50,7 +50,10 @@ function Header() {
           >
             <i className="fa-regular fa-user"></i>
           </Link>
-          <button className="text-2xl hover:text-[#FF0336] ease-in duration-200">
+          <button
+            onClick={() => setAboutSidebar(true)}
+            className="text-2xl hover:text-[#FF0336] ease-in duration-200"
+          >
             <i className="fa-regular fa-chart-bar"></i>
           </button>
         </div>

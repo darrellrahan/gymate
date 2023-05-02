@@ -8,12 +8,12 @@ import AboutSidebar from "../components/AboutSidebar";
 
 function page() {
   return (
-    <main className="bg-[url('/images/bg/bg.jpg')] bg-[50%] bg-no-repeat bg-cover ">
+    <main className="bg-[url('/images/bg/bg.jpg')] bg-[50%] bg-no-repeat bg-cover">
       <Header />
       <MobileNavbar />
       <AboutSidebar />
-      <Banner page="Register" />
-      <Form register />
+      <Banner page="Login" />
+      <Form />
       <Footer />
     </main>
   );
