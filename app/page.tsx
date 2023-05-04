@@ -1,4 +1,5 @@
 import AboutSidebar from "./components/AboutSidebar";
+import FeaturedClass from "./components/FeaturedClass";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -13,6 +14,7 @@ export default function Home() {
       <AboutSidebar />
       <Hero />
       <WhoWeAre />
+      <FeaturedClass />
       <Footer />
     </main>
   );
