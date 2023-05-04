@@ -7,9 +7,9 @@ function WhoWeAre() {
     <section id="who-we-are">
       <div className="bg-[url('/images/bg/bg.jpg')] bg-[50%] bg-no-repeat bg-cover px-8 pb-16 space-y-8">
         <div className="grid grid-cols-1 gap-8 -translate-y-16">
-          <div className="bg-white hover:bg-[url('/images/whoweare-grids/first-grid/hover.jpg')] hover:text-white cursor-pointer p-8 flex flex-col items-center text-center gap-4 rounded-tl-[35px] rounded-br-[35px] shadow-2xl">
+          <div className="bg-white hover:bg-[url('/images/whoweare/first-grid/hover.jpg')] hover:text-white cursor-pointer p-8 flex flex-col items-center text-center gap-4 rounded-tl-[35px] rounded-br-[35px] shadow-2xl">
             <Image
-              src="/images/whoweare-grids/first-grid/img-1.png"
+              src="/images/whoweare/first-grid/img-1.png"
               alt="progression"
               width={60}
               height={60}
@@ -20,9 +20,9 @@ function WhoWeAre() {
               that helps you achieve success one step at a time.
             </p>
           </div>
-          <div className="bg-white hover:bg-[url('/images/whoweare-grids/first-grid/hover.jpg')] hover:text-white cursor-pointer p-8 flex flex-col items-center text-center gap-4 rounded-tl-[35px] rounded-br-[35px] shadow-2xl">
+          <div className="bg-white hover:bg-[url('/images/whoweare/first-grid/hover.jpg')] hover:text-white cursor-pointer p-8 flex flex-col items-center text-center gap-4 rounded-tl-[35px] rounded-br-[35px] shadow-2xl">
             <Image
-              src="/images/whoweare-grids/first-grid/img-2.png"
+              src="/images/whoweare/first-grid/img-2.png"
               alt="workout"
               width={60}
               height={60}
@@ -33,9 +33,9 @@ function WhoWeAre() {
               you need to get into the best shape of your life.
             </p>
           </div>
-          <div className="bg-white hover:bg-[url('/images/whoweare-grids/first-grid/hover.jpg')] hover:text-white cursor-pointer p-8 flex flex-col items-center text-center gap-4 rounded-tl-[35px] rounded-br-[35px] shadow-2xl">
+          <div className="bg-white hover:bg-[url('/images/whoweare/first-grid/hover.jpg')] hover:text-white cursor-pointer p-8 flex flex-col items-center text-center gap-4 rounded-tl-[35px] rounded-br-[35px] shadow-2xl">
             <Image
-              src="/images/whoweare-grids/first-grid/img-3.png"
+              src="/images/whoweare/first-grid/img-3.png"
               alt="nutritions"
               width={60}
               height={60}
@@ -68,7 +68,7 @@ function WhoWeAre() {
           <div className="grid grid-cols-1 gap-8 my-8">
             <div className="flex flex-col items-center gap-4">
               <Image
-                src="/images/whoweare-grids/second-grid/img-1.png"
+                src="/images/whoweare/second-grid/img-1.png"
                 alt="PROFESSIONAL TRAINERS"
                 width={60}
                 height={60}
@@ -81,7 +81,7 @@ function WhoWeAre() {
             </div>
             <div className="flex flex-col items-center gap-4">
               <Image
-                src="/images/whoweare-grids/second-grid/img-2.png"
+                src="/images/whoweare/second-grid/img-2.png"
                 alt="MODERN EQUIPMENTS"
                 width={60}
                 height={60}
@@ -94,7 +94,7 @@ function WhoWeAre() {
             </div>
             <div className="flex flex-col items-center gap-4">
               <Image
-                src="/images/whoweare-grids/second-grid/img-3.png"
+                src="/images/whoweare/second-grid/img-3.png"
                 alt="FANCY GYM MACHINES"
                 width={60}
                 height={60}
