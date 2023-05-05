@@ -10,9 +10,9 @@ function GymTrainers() {
           <Image
             src="/images/abstract/abstract.svg"
             alt="abstract"
-            width={200}
-            height={200}
-            className="absolute left-[3.75rem] -top-1.5"
+            width={220}
+            height={220}
+            className="absolute left-[3rem] -top-1.5"
           />
           <p className="text-white relative z-10 font-bold text-center">
             GYM TRAINERS
