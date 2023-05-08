@@ -404,6 +404,51 @@ function Blog() {
               </div>
             </div>
           </div>
+          <div className="bg-[#f8f8f8] p-8 space-y-10">
+            <div className="space-y-2">
+              <h1 className="font-bold text-lg">Popular Tags</h1>
+              <div className="w-10 h-1 bg-[#ff0336]"></div>
+            </div>
+            <div className="flex gap-3 text-[#646464] font-semibold flex-wrap">
+              <p className="bg-white py-1 px-3.5 hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
+                #Crossfit
+              </p>
+              <p className="bg-white py-1 px-3.5 hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
+                #Fitness
+              </p>
+              <p className="bg-white py-1 px-3.5 hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
+                #Gym
+              </p>
+              <p className="bg-white py-1 px-3.5 hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
+                #Meditation
+              </p>
+              <p className="bg-white py-1 px-3.5 hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
+                #Running
+              </p>
+              <p className="bg-white py-1 px-3.5 hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
+                #Workout
+              </p>
+              <p className="bg-white py-1 px-3.5 hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
+                #Yoga
+              </p>
+              <p className="bg-white py-1 px-3.5 hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
+                #Boxing
+              </p>
+            </div>
+          </div>
+          <div className="bg-[url('/images/blog/discount-bg.png')] bg-[50%] bg-no-repeat bg-cover h-[34rem] relative">
+            <p className="absolute text-4xl font-bold uppercase top-11 left-4 z-[2]">
+              gymat
+            </p>
+            <span
+              style={{ clipPath: "polygon(0 0,100% 0,88% 100%,0 100%)" }}
+              className="top-8 left-0 z-[1] bg-white absolute w-44 h-[3.75rem]"
+            ></span>
+            <div className="text-white flex flex-col absolute top-[5.5rem] left-4">
+              <p className="text-[4rem] font-bold">34%</p>
+              <p className="text-xl font-bold -mt-2.5">Flat Discount</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
