@@ -39,42 +39,42 @@ function AboutSidebar() {
           <h1 className="font-bold text-xl">Gallery</h1>
           <div className="grid grid-cols-3 gap-4">
             <Image
-              src="/images/gallery/img-1.jpg"
+              src="/images/about-sidebar/gallery/img-1.jpg"
               alt="gallery"
               width={100}
               height={100}
               className="w-full h-auto rounded-xl"
             />
             <Image
-              src="/images/gallery/img-2.jpg"
+              src="/images/about-sidebar/gallery/img-2.jpg"
               alt="gallery"
               width={100}
               height={100}
               className="w-full h-auto rounded-xl"
             />
             <Image
-              src="/images/gallery/img-3.jpg"
+              src="/images/about-sidebar/gallery/img-3.jpg"
               alt="gallery"
               width={100}
               height={100}
               className="w-full h-auto rounded-xl"
             />
             <Image
-              src="/images/gallery/img-4.jpg"
+              src="/images/about-sidebar/gallery/img-4.jpg"
               alt="gallery"
               width={100}
               height={100}
               className="w-full h-auto rounded-xl"
             />
             <Image
-              src="/images/gallery/img-5.jpg"
+              src="/images/about-sidebar/gallery/img-5.jpg"
               alt="gallery"
               width={100}
               height={100}
               className="w-full h-auto rounded-xl"
             />
             <Image
-              src="/images/gallery/img-6.jpg"
+              src="/images/about-sidebar/gallery/img-6.jpg"
               alt="gallery"
               width={100}
               height={100}
