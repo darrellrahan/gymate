@@ -41,9 +41,9 @@ function Bmi() {
 
   return (
     <section id="bmi">
-      <div className="bg-[url('/images/bmi/bg.jpg')] bg-no-repeat bg-cover bg-[100%] px-8 py-12 relative">
-        <div className="absolute inset-0 bg-black/70"></div>
-        <div className="space-y-6 text-white z-20 relative">
+      <div className="bg-[url('/images/bmi/bg.jpg')] bg-no-repeat bg-cover bg-[100%] px-8 py-12 lg:py-20 relative lg:grid grid-cols-2">
+        <div className="absolute inset-0 bg-black/70 lg:bg-transparent"></div>
+        <div className="space-y-6 text-white z-20 relative max-w-screen-xl m-auto">
           <h1 className="font-bold text-4xl">
             Let's Calculate Your <span className="text-[#ff0336]">BMI</span>
           </h1>

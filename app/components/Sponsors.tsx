@@ -4,7 +4,7 @@ import React from "react";
 function Sponsors() {
   return (
     <section id="sponsors">
-      <div className="p-16 flex flex-col justify-center items-center gap-8">
+      <div className="p-16 flex flex-col lg:flex-row lg:py-32 justify-center items-center gap-8">
         <Image
           src="/images/sponsors/img-1.png"
           alt="sponsor 1"
