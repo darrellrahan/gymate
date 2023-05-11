@@ -4,7 +4,7 @@ import React from "react";
 function Form({ register }: { register?: boolean }) {
   return (
     <section id="form">
-      <div className="mx-8 my-16 p-8 bg-black text-white space-y-10">
+      <div className="max-w-xl my-16 mx-8 lg:mx-auto p-8 lg:px-12 lg:py-16 bg-black text-white space-y-10">
         <div className="space-y-6">
           {register && (
             <div className="flex flex-col gap-3">
