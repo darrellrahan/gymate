@@ -18,7 +18,7 @@ function Gallery() {
               alt="gallery"
               width={1000}
               height={1000}
-              className="w-auto h-auto lg:w-full lg:h-full"
+              className="w-full h-full"
             />
           ))}
         </div>
