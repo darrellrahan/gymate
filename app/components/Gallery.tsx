@@ -9,8 +9,8 @@ function Gallery() {
 
   return (
     <section id="gallery">
-      <div className="px-8 py-16 space-y-16">
-        <div className="grid grid-cols-1 gap-4">
+      <div className="px-8 py-16 lg:py-24 space-y-16">
+        <div className="grid grid-cols-1 lg:grid-cols-3 max-w-screen-xl m-auto lg:px-16 gap-4">
           {page.map((data) => (
             <Image
               key={data}
@@ -18,7 +18,7 @@ function Gallery() {
               alt="gallery"
               width={1000}
               height={1000}
-              className="w-auto h-auto"
+              className="w-auto h-auto lg:w-full lg:h-full"
             />
           ))}
         </div>

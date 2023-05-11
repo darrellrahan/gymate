@@ -5,7 +5,7 @@ import React from "react";
 function Blog() {
   return (
     <section id="blog">
-      <div className="px-8 py-16 space-y-16">
+      <div className="px-8 py-16 flex flex-col lg:gap-12 gap-16 lg:flex-row max-w-screen-xl m-auto">
         <div className="space-y-16">
           <div className="flex flex-col gap-4 items-baseline">
             <Image

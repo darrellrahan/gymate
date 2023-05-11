@@ -5,7 +5,7 @@ import React from "react";
 function Footer() {
   return (
     <section id="footer">
-      <footer className="bg-white px-8 lg:px-28 py-16 lg:py-24 text-center flex flex-col lg:flex-row lg:text-left gap-16 lg:justify-between">
+      <footer className="bg-white px-8 py-16 lg:py-24 text-center flex flex-col lg:flex-row lg:text-left gap-16 lg:justify-between max-w-screen-xl m-auto">
         <div className="space-y-6 lg:w-96">
           <div className="space-y-4">
             <div>
@@ -58,7 +58,7 @@ function Footer() {
               <h1 className="font-bold text-2xl">Our Classes</h1>
               <span className="top-8 left-[5.75rem] lg:left-0 absolute w-16 h-[4px] bg-[#ff0366]"></span>
             </div>
-            <div className="flex flex-col gap-4 items-baseline">
+            <div className="flex flex-col gap-4 items-center lg:items-baseline">
               <Link href="/" className="hover:text-[#ff0336] hover:font-bold">
                 Fitness Classes
               </Link>

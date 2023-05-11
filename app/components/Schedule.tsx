@@ -81,13 +81,13 @@ function Schedule() {
             Sunday
           </button>
         </div>
-        <div className="space-y-4">
+        <div className="space-y-4 lg:space-y-2 max-w-screen-xl m-auto lg:px-16">
           {currentSchedule.map((data) => (
             <div
               key={data.class}
-              className="bg-[#f2f2f2] p-6 flex flex-col gap-10 items-center text-center"
+              className="bg-[#f2f2f2] p-6 lg:px-12 grid grid-cols-1 lg:grid-cols-4 gap-10 items-center text-center"
             >
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-2 lg:text-left">
                 <p>Class</p>
                 <h3 className="font-bold text-lg">{data.class}</h3>
               </div>
@@ -99,7 +99,7 @@ function Schedule() {
                 <p>Trainer</p>
                 <h3 className="font-bold text-lg">{data.trainer}</h3>
               </div>
-              <button className="text-white font-medium bg-[#555] py-2.5 px-5 rounded-[1.875rem] hover:bg-[#ff0336] ease-in duration-200">
+              <button className="text-white font-medium bg-[#555] py-2.5 px-5 rounded-[1.875rem] hover:bg-[#ff0336] ease-in duration-200 w-fit justify-self-center lg:justify-self-end">
                 Join Now
               </button>
             </div>
